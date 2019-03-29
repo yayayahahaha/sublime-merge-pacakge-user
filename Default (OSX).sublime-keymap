@@ -1,0 +1,4 @@
+[
+    // Mimic quick switch project in Sublime.
+    { "keys": ["ctrl+super+p"], "command": "quick_switch_repository" },
+]
