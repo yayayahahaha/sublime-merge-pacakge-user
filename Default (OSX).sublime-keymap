@@ -1,4 +1,40 @@
 [
     // Mimic quick switch project in Sublime.
-    { "keys": ["ctrl+super+p"], "command": "quick_switch_repository" },
+    {
+        "keys": ["ctrl+super+p"],
+        "command": "quick_switch_repository"
+    },
+
+    // track remote branch
+    {
+        "keys": ["ctrl+super+b"],
+        "command": "show_command_palette",
+        "args": {
+            "command": "create_branch_from_remote_branch"
+        }
+    }, {
+        "keys": ["super+shift+f"],
+        "command": "show_command_palette",
+        "args": {
+            "command": "fetch"
+        }
+    }, {
+        "keys": ["super+shift+c"],
+        "command": "show_command_palette",
+        "args": {
+            "command": "checkout_branch"
+        }
+    }, {
+        "keys": ["super+shift+m"],
+        "command": "show_command_palette",
+        "args": {
+            "command": "merge_branch"
+        }
+    }, {
+        "keys": ["super+shift+d"],
+        "command": "show_command_palette",
+        "args": {
+            "command": "delete_branch"
+        }
+    }
 ]
