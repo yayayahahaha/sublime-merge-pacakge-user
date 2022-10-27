@@ -4,6 +4,7 @@
 	"translate_tabs_to_spaces": true,
 	"ignore_diff_white_space": false,
 	/*"font_face": "Avrial",*/
-	"side_bar_layout": "locations_as_column",
-	"render_commit_dialog_message_at_top": true,
+	"side_bar_layout": "commit_graph_as_column",
+	"render_commit_dialog_message_at_top": false,
+	"theme": "Merge Dark.sublime-theme",
 }
