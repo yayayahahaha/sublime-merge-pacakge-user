@@ -6,5 +6,5 @@
 	/*"font_face": "Avrial",*/
 	"side_bar_layout": "commit_graph_as_column",
 	"render_commit_dialog_message_at_top": false,
-	"theme": "Merge Dark.sublime-theme",
+	/*"theme": "Merge Dark.sublime-theme",*/
 }

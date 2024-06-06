@@ -5,6 +5,15 @@
         "command": "quick_switch_repository"
     },
 
+    // Copy current seleted commit hash
+    {
+        "keys": ["super+c"],   // Windows 和 Linux 使用 Ctrl+C
+        "command": "copy_to_clipboard",
+        "args": {
+            "text": "$commit"
+        }
+    },
+
 
     {
         // track remote branch
