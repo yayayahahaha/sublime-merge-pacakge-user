@@ -7,10 +7,19 @@
 
     // Copy current seleted commit hash
     {
-        "keys": ["ctrl+super+c"],
+        "keys": ["ctrl+super+s"],
         "command": "copy_to_clipboard",
         "args": {
             "text": "$commit"
+        }
+    },
+
+    // Copy current branch
+    {
+        "keys": ["ctrl+super+c"],
+        "command": "copy_to_clipboard",
+        "args": {
+            "text": "$head"
         }
     },
 
